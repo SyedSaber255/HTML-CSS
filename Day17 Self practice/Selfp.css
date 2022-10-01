@@ -1,0 +1,35 @@
+
+.navbar{
+    height: 100px;
+    background-color: lightblue;
+}
+a{
+    line-height: 50px;
+    font-size: 25px;
+    padding: 20px;
+}
+.main{
+background-color: lightcoral;
+flex-wrap: wrap;
+}
+.left{
+    background-color: darkcyan;
+    padding: 10px;
+    height: 800px;
+    width: 30%;
+    float: left;
+}
+.center{
+    background-color: darkgreen;
+    padding: 10px;
+    height: 800px;
+    width: 30%;
+    float: left;
+}
+.right{
+    background-color: darkolivegreen;
+    padding: 10px;
+    height: 800px;
+    width: 30%;
+float: ;
+}

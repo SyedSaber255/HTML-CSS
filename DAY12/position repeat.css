@@ -1,0 +1,28 @@
+.parent{
+ width: 300px;
+height: 400px;
+background-color: rgb(red, green, blue);
+position: relative;
+
+}
+.blankDiv{
+    height: 40px;
+    background-color: black;
+
+}
+.name{
+    font-25px size: ;
+    text-align: center;
+    color: aqua;
+}
+.content {
+    height: 60px;
+    padding: 0px 10%;
+
+}
+.title {
+    
+}
+.desk{
+    
+}

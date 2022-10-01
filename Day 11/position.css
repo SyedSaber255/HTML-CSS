@@ -1,0 +1,17 @@
+.parents {
+    background-color: rgba(128, 255, 0, 0.881);
+    width: 200px;
+    height: 200-px;
+    margin: 50px;
+}
+.one{
+    background-color: blueviolet;
+    width: 800px;
+    height: 1200px;
+    margin: 20px;
+}
+.tow{
+    background-color: black;
+    position: relative;
+    right: 100px;
+}

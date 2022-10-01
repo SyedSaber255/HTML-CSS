@@ -1,0 +1,71 @@
+div{
+    background-color: cyan;
+    height: 200px;
+    width: 200px;
+    animation-name: divsAnimation;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count:1 ;
+}
+@keyframes divsAnimation{
+    0% {
+        background-color: cyan;
+    }
+    20%{
+        background-color: red;
+    }
+    40%{
+        background-color: azure;
+    }
+    60%{
+        background-color: blue;
+    }
+    80%{
+        background-color: black;
+    }
+    100%{
+        background-color: brown;
+    }
+    /* from{background-color: cyan;}
+to {
+    background-color: red;
+} */
+}
+.parent{
+    height: 600px;;
+  width: 600px;
+    background-color: slategray;
+    position: relative;
+}
+.child {
+    height: 100px;
+width: 100px;
+background-color: black;
+position: absolute;
+top: opx;
+left: 0px;
+animation-name: sample;
+animation-duration: 8s;
+animation: timing-function;
+animation-iteration-count: 2;
+ani
+}
+
+@keyframes sample{
+    25%{top:0px;
+left: 500px;
+}
+50%{
+    top: 250px;
+    left: 500px;
+}
+75%{
+    top:500px;
+    left: 250px;
+}
+100%{
+    top: 250px;
+    left: 0px;
+}
+}

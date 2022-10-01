@@ -1,0 +1,11 @@
+nav{
+    background-color: blue;
+    padding: 20px;
+}
+a{color: aliceblue;}
+button{background-color: aqua;}
+table{background-color:black;}
+tr,
+td{
+    color: white;
+}

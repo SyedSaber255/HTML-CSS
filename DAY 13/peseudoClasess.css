@@ -1,0 +1,42 @@
+a {
+ text-decoration-line:none;
+}
+.one {
+    color: green;
+
+}
+.one:visited {
+    color: blueviolet;
+}
+.two:visited {
+    color: blueviolet;
+}
+.three:hover {
+    color: coral;
+    background-color: aqua;
+}
+.four:active {
+    /* color: red;
+}
+input:checked{
+    border:none;
+    outline-color: black];
+
+
+}
+input:disabled {
+    background-color: lightgrey;
+}
+
+p:first-child{
+    background-color: aqua;
+}
+p:first-of-type{
+    background-color: blueviolet;
+} */
+input:focus {
+    width: 200px;
+    height: 150px;
+    background-color: gray;
+}
+

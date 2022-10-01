@@ -1,0 +1,28 @@
+.parent{
+    background-color: blue;
+    height: 1300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content:start; */
+    align-items: center;
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction:row-reverse; */
+    flex-direction:row;
+    /* flex-direction:column; */
+    /* flex-direction:column-reverse; */
+}
+.child {
+    /* width: 23%;
+    height: 400px; */
+background-color: seagreen;
+margin: 5px;
+
+}
+.one{
+    flex-grow: 2;
+}
+.two{
+    flex-grow: 2;
+}

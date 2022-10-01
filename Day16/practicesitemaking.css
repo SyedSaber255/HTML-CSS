@@ -1,0 +1,25 @@
+#upbutton{
+    text-align: right;
+    text-decoration-color: black;
+    text-shadow: aqua;
+}
+#head {
+    background-color: rgb(20, 172, 223);
+    text-align:justify
+}
+
+.parent{
+    width:100%;
+    height:1000px;
+    align-items: center;
+    background-color: aqua;
+}
+
+.child{
+width: 200px;
+height: 200px;
+background-color: antiquewhite;
+margin: 5px;
+position: relative;
+flex-wrap: wrap;
+}

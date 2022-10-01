@@ -1,0 +1,41 @@
+p::first-line {
+    color: aqua;
+}
+p {
+    color: blue;
+}
+P::first-letter {
+    font-size: 50px;
+    background-color: blueviolet;
+    font-style: italic;
+}
+p::before {
+    content: "Hello World";
+    background-color:black;
+    font-size: 50px;
+    font-family:cursive ;
+}
+p::after {
+    content: Bye;
+    color: cadetblue;
+    font-size: 50px;
+    font-style: italic;
+    font-family: fantasy;
+}
+p::selection {
+    color: blue;
+    background-color: yellow;
+}
+span:: ::selection{
+background-color: aquamarine;
+color: blueviolet;
+font-size: 30px;
+}
+
+:: marker{
+    color: red;
+}
+#xyz ::marker {
+    color: brown;
+}
+#abc :: marker
